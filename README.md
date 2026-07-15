@@ -131,13 +131,8 @@ Follow these steps to set up the project locally on your machine.
 
 ### Installation
 
-**1. Clone the repository**
-```bash
-git clone [https://github.com/Deo-Mohan/DarshanEase.git](https://github.com/Deo-Mohan/DarshanEase.git)
-cd DarshanEase
-```
 
-**2. Setup and Start the Frontend**
+**1. Setup and Start the Frontend**
 ```bash
 cd Frontend
 npm install
@@ -145,7 +140,7 @@ npm run dev
 ```
 *Frontend runs at: `http://localhost:5173`*
 
-**3. Setup and Start the Backend**
+**2. Setup and Start the Backend**
 ```bash
 cd backend
 npm install
@@ -174,9 +169,6 @@ Here are some of the core REST endpoints available in the backend:
 | Method | Endpoint | Description | Auth Required |
 |---|---|---|---|
 | `POST` | `/api/auth/register` | Register a new user account | ❌ No |
-| `POST` | `/api/auth/login` | Authenticate user & get token | ❌ No |
-| `GET` | `/api/temples` | Fetch all available temples | ❌ No |
-| `GET` | `/api/temples/:id` | Get specific temple details | ❌ No |
 | `POST` | `/api/bookings` | Create a new Darshan/Travel booking | 🔒 Yes |
 | `GET` | `/api/bookings/user` | Get all bookings for logged-in user | 🔒 Yes |
 
@@ -196,20 +188,6 @@ Here are some of the core REST endpoints available in the backend:
 - [ ] Temple donation payment gateway integration
 - [ ] Multi-language support
 - [ ] AR temple exploration mode
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## 🤝 Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
