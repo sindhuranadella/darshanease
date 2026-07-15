@@ -63,25 +63,6 @@ The core philosophy of this project is to seamlessly merge **technology with spi
 
 ## 🖼️ Project Preview
 
-<table align="center">
-  <tr>
-    <td align="center"><strong>🏠 Homepage</strong></td>
-    <td align="center"><strong>🔐 Login Page</strong></td>
-  </tr>
-  <tr>
-    <td><img src="Homepage.png" alt="Homepage" width="400"/></td>
-    <td><img src="loginpage.png" alt="Login Page" width="400"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🛕 Temple Booking</strong></td>
-    <td align="center"><strong>🚠 Journey Planner</strong></td>
-  </tr>
-  <tr>
-    <td><img src="templepage.png" alt="Temple Booking" width="400"/></td>
-    <td><img src="plannerpage.png" alt="Journey Planner" width="400"/></td>
-  </tr>
-</table>
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
